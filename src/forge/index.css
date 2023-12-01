@@ -1,0 +1,17 @@
+body {
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+		Arial, sans-serif;
+	margin: auto;
+	padding: 2rem !important;
+}
+
+#root {
+	height: 100vh;
+}
+
+/* HIDE TABLE */
+@media screen {
+	#component-to-print {
+		display: none;
+	}
+}
